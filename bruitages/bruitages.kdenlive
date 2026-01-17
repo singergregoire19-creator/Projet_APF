@@ -1,0 +1,1264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="en_US.UTF-8" producer="main_bin" root="C:/Users/Gregoire/Desktop/TRAVAIL/PROJET2 - APF/Scripts/scripts/bruitages" version="7.33.0">
+ <profile colorspace="709" description="HD 1080p 25 fps" display_aspect_den="9" display_aspect_num="16" frame_rate_den="1" frame_rate_num="25" height="1080" progressive="1" sample_aspect_den="1" sample_aspect_num="1" width="1920"/>
+ <producer id="producer0" in="00:00:00.000" out="00:05:15.480">
+  <property name="length">2147483647</property>
+  <property name="eof">continue</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">color</property>
+  <property name="kdenlive:playlistid">black_track</property>
+  <property name="mlt_image_format">rgba</property>
+  <property name="set.test_audio">0</property>
+ </producer>
+ <chain id="chain0" out="00:01:19.000">
+  <property name="length">1976</property>
+  <property name="eof">pause</property>
+  <property name="resource">WhatsApp Ptt 2026-01-12 at 17.10.57.ogg</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:control_uuid">{2f71acc9-9d58-415c-90bc-69bb57c321a9}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">91019</property>
+  <property name="kdenlive:file_hash">b307bc3578ad6e5ac3b2d95d6e6aa5d6</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.layout">mono</property>
+  <property name="meta.media.0.codec.name">opus</property>
+  <property name="meta.media.0.codec.long_name">Opus</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="xml">was here</property>
+  <property name="mute_on_pause">0</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
+ <playlist id="playlist0">
+  <property name="kdenlive:audio_track">1</property>
+  <blank length="00:00:00.120"/>
+  <entry in="00:00:23.800" out="00:00:24.840" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter0">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:00:23.800=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter1" in="00:00:23.800" out="00:00:23.960">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:25.360" out="00:00:26.680" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter2">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:00:25.360=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:00.280"/>
+  <entry in="00:00:29.880" out="00:00:31.360" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter3">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:00:29.880=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter4" in="00:00:30.960" out="00:00:31.360">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:57.320" out="00:00:58.920" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter5">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:00:57.320=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter6" in="00:00:57.320" out="00:00:57.520">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
+  <blank length="00:00:05.120"/>
+  <entry in="00:01:05.840" out="00:01:08.800" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter7">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:01:05.840=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:01:16.800" out="00:01:18.120" producer="chain0">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter8">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:01:16.800=17</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <tractor id="tractor0" in="00:00:00.000" out="00:00:15.440">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">72</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="video" producer="playlist0"/>
+  <track hide="video" producer="playlist1"/>
+  <filter id="filter9">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter10">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter11">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="dbpeak">1</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <chain id="chain1" out="00:00:01.040">
+  <property name="length">27</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/woosh.m4a</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:control_uuid">{d24ec466-71eb-4b1f-90ed-ea65bfb55345}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">17691</property>
+  <property name="kdenlive:file_hash">4cc580212dcd0ceec7693c96f9067000</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">125582</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2017-10-28T23:32:10.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2017-10-28T23:32:10.000000Z</property>
+  <property name="xml">was here</property>
+  <property name="mute_on_pause">0</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
+ <chain id="chain2" out="00:00:01.000">
+  <property name="length">26</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Pop.m4a</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:control_uuid">{ec7d4d83-35a3-4c36-b15e-ab67914dcb2c}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">17302</property>
+  <property name="kdenlive:file_hash">3e875569a0f3dfa858a0482b36689be4</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">127993</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2022-03-11T20:31:29.000000Z</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2022-03-11T20:31:29.000000Z</property>
+  <property name="xml">was here</property>
+  <property name="mute_on_pause">0</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
+ <chain id="chain3" out="00:00:05.000">
+  <property name="length">126</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Magic Wind Chimes Sound Effect (HD).mp3</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">1</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:control_uuid">{545c825a-fdac-40c4-b803-34609136ed9c}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:coverartstream">1</property>
+  <property name="kdenlive:file_size">221912</property>
+  <property name="kdenlive:file_hash">1495713a414fb1171f1fd66ec663214a</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">mp3float</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">320000</property>
+  <property name="meta.attr.0.stream.encoder.markup">Lavc58.13</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">90000</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.width">1280</property>
+  <property name="meta.media.1.codec.height">720</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">601</property>
+  <property name="meta.media.1.codec.name">mjpeg</property>
+  <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.title.markup">Album cover</property>
+  <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.title.markup">Magic Wind Chimes Sound Effect (HD)</property>
+  <property name="meta.attr.artist.markup">SOUNDLAB</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.synopsis.markup">Sign up to the 30 day free trial of Epidemic Sound in order to download and use this track within your YouTube videos without Content ID claims.
+► Track Link - https://www.epidemicsound.com/track/iXYouL6uWJ/
+► Epidemic Sound website - https://share.epidemicsound.com/gpkum8
+
+..................................
+
+► How do I download this sound effect/music?
+There will be a link at the top of the description if you are allowed to download and use this sound effect/music within your videos. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Can I use this sound effect/music in my videos?
+Check the description of each video for details of whether you have permission to use this sound effect/music within your video. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Do you own these sound effects/music?
+No. I do not own these sounds. I have sourced them from the internet and uploaded them for ease of access to the YouTube community.
+
+..................................
+
+►If you enjoyed, please leave a like/comment/subscribe!! :D
+
+
+#magicwindchimessound
+#magicwindchimes
+#magicwindsound
+#magicsound
+#magic</property>
+  <property name="meta.attr.comment.markup">https://www.youtube.com/watch?v=H5CR1dNOA-I</property>
+  <property name="meta.attr.description.markup">Sign up to the 30 day free trial of Epidemic Sound in order to download and use this track within your YouTube videos without Content ID claims.
+► Track Link - https://www.epidemicsound.com/track/iXYouL6uWJ/
+► Epidemic Sound website - https://share.epidemicsound.com/gpkum8
+
+..................................
+
+► How do I download this sound effect/music?
+There will be a link at the top of the description if you are allowed to download and use this sound effect/music within your videos. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Can I use this sound effect/music in my videos?
+Check the description of each video for details of whether you have permission to use this sound effect/music within your video. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Do you own these sound effects/music?
+No. I do not own these sounds. I have sourced them from the internet and uploaded them for ease of access to the YouTube community.
+
+..................................
+
+►If you enjoyed, please leave a like/comment/subscribe!! :D
+
+
+#magicwindchimessound
+#magicwindchimes
+#magicwindsound
+#magicsound
+#magic</property>
+  <property name="meta.attr.date.markup">2022</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">90000</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">full</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
+ <chain id="chain4" out="00:04:23.120">
+  <property name="length">6579</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Popular Meme Sound Effects (For Video Editing).m4a</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:control_uuid">{099f3b46-ab22-4cfb-9775-14d2c99baa21}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">4259931</property>
+  <property name="kdenlive:file_hash">b0f20866ba3ae655da7e6a53eba6b17d</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">128276</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2022-07-22T17:59:33.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2022-07-22T17:59:33.000000Z</property>
+  <property name="xml">was here</property>
+  <property name="mute_on_pause">0</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
+ <playlist id="playlist2">
+  <property name="kdenlive:audio_track">1</property>
+  <entry in="00:00:00.240" out="00:00:01.040" producer="chain1">
+   <property name="kdenlive:id">5</property>
+  </entry>
+  <blank length="00:00:02.000"/>
+  <entry in="00:00:00.280" out="00:00:01.000" producer="chain2">
+   <property name="kdenlive:id">10</property>
+   <filter id="filter12" in="00:00:00.280" out="00:00:00.320">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:01.640"/>
+  <entry in="00:00:00.000" out="00:00:05.000" producer="chain3">
+   <property name="kdenlive:id">12</property>
+   <property name="kdenlive:activeeffect">1</property>
+   <filter id="filter13" out="00:00:00.320">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter14">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">00:00:00.000=-11</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter15" in="00:00:04.360" out="00:00:05.000">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:01:08.680" out="00:01:10.680" producer="chain4">
+   <property name="kdenlive:id">11</property>
+  </entry>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <tractor id="tractor1" in="00:00:00.000" out="00:00:12.280">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">72</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="video" producer="playlist2"/>
+  <track hide="video" producer="playlist3"/>
+  <filter id="filter16">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter17">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter18">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="dbpeak">1</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <playlist id="playlist4"/>
+ <playlist id="playlist5"/>
+ <tractor id="tractor2" in="00:00:00.000">
+  <property name="kdenlive:trackheight">72</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist4"/>
+  <track hide="audio" producer="playlist5"/>
+ </tractor>
+ <playlist id="playlist6"/>
+ <playlist id="playlist7"/>
+ <tractor id="tractor3" in="00:00:00.000">
+  <property name="kdenlive:trackheight">72</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist6"/>
+  <track hide="audio" producer="playlist7"/>
+ </tractor>
+ <tractor id="{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}" in="00:00:00.000" out="00:00:15.440">
+  <property name="kdenlive:uuid">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:clipname">Sequence 1</property>
+  <property name="kdenlive:sequenceproperties.hasAudio">1</property>
+  <property name="kdenlive:sequenceproperties.hasVideo">1</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">1</property>
+  <property name="kdenlive:sequenceproperties.tracksCount">4</property>
+  <property name="kdenlive:sequenceproperties.documentuuid">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:control_uuid">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:duration">00:00:15.480</property>
+  <property name="kdenlive:maxduration">387</property>
+  <property name="kdenlive:producer_type">17</property>
+  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:file_size">0</property>
+  <property name="kdenlive:folderid">2</property>
+  <property name="kdenlive:sequenceproperties.audioTarget">1</property>
+  <property name="kdenlive:sequenceproperties.disablepreview">0</property>
+  <property name="kdenlive:sequenceproperties.position">386</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">136</property>
+  <property name="kdenlive:sequenceproperties.tracks">4</property>
+  <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
+  <property name="kdenlive:sequenceproperties.videoTarget">2</property>
+  <property name="kdenlive:sequenceproperties.zonein">0</property>
+  <property name="kdenlive:sequenceproperties.zoneout">29225</property>
+  <property name="kdenlive:sequenceproperties.zoom">5</property>
+  <property name="kdenlive:sequenceproperties.groups">[
+    {
+        "children": [
+            {
+                "data": "0:71:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:71:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "Normal"
+    },
+    {
+        "children": [
+            {
+                "data": "0:109:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:131:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "Normal"
+    },
+    {
+        "children": [
+            {
+                "data": "0:278:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "0:353:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:257:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "Normal"
+    },
+    {
+        "children": [
+            {
+                "data": "0:3:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:0:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "0:30:-1",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "Normal"
+    }
+]
+</property>
+  <property name="kdenlive:sequenceproperties.guides">[
+    {
+        "comment": "Marker",
+        "pos": 54,
+        "type": 0
+    },
+    {
+        "comment": "pop",
+        "pos": 71,
+        "type": 0
+    },
+    {
+        "comment": "image",
+        "pos": 116,
+        "type": 0
+    },
+    {
+        "comment": "magic",
+        "pos": 257,
+        "type": 0
+    }
+]
+</property>
+  <property name="kdenlive:markers">[
+    {
+        "comment": "Marker",
+        "pos": 54,
+        "type": 0
+    },
+    {
+        "comment": "pop",
+        "pos": 71,
+        "type": 0
+    },
+    {
+        "comment": "image",
+        "pos": 116,
+        "type": 0
+    },
+    {
+        "comment": "magic",
+        "pos": 257,
+        "type": 0
+    }
+]
+</property>
+  <track producer="producer0"/>
+  <track producer="tractor0"/>
+  <track producer="tractor1"/>
+  <track producer="tractor2"/>
+  <track producer="tractor3"/>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <filter id="filter19">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter20">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <chain id="chain5" out="00:04:54.120">
+  <property name="length">7354</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Downloads/Sleepsong, Cormac.mp3</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">mp3float</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">320000</property>
+  <property name="meta.attr.0.stream.encoder.markup">Lavc58.13</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">90000</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.width">1280</property>
+  <property name="meta.media.1.codec.height">720</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">601</property>
+  <property name="meta.media.1.codec.name">mjpeg</property>
+  <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.title.markup">Album cover</property>
+  <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+  <property name="meta.attr.major_brand.markup">M4A </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">M4A isomiso2</property>
+  <property name="meta.attr.title.markup">Sleepsong</property>
+  <property name="meta.attr.artist.markup">Cormac, Jon Cohen, Simon Hanhart, Tim Debney, Jon Cohen</property>
+  <property name="meta.attr.album.markup">A Borrowed Gift</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.synopsis.markup">Provided to YouTube by DistroKid
+
+Sleepsong · Cormac · Jon Cohen · Simon Hanhart · Tim Debney · Jon Cohen
+
+A Borrowed Gift
+
+℗ Cormac Thompson Music Ltd
+
+Released on: 2023-11-24
+
+Auto-generated by YouTube.</property>
+  <property name="meta.attr.comment.markup">https://www.youtube.com/watch?v=PcxtW_093_s</property>
+  <property name="meta.attr.description.markup">Provided to YouTube by DistroKid
+
+Sleepsong · Cormac · Jon Cohen · Simon Hanhart · Tim Debney · Jon Cohen
+
+A Borrowed Gift
+
+℗ Cormac Thompson Music Ltd
+
+Released on: 2023-11-24
+
+Auto-generated by YouTube.</property>
+  <property name="meta.attr.date.markup">2024</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">1</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">90000</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">full</property>
+  <property name="astream">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:control_uuid">{79101ad7-e1c5-4185-ab80-c769fdbc4c17}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:coverartstream">1</property>
+  <property name="kdenlive:file_size">11811189</property>
+  <property name="kdenlive:file_hash">aa85caf55672d569557bd7829dde0faa</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain6" out="00:00:01.040">
+  <property name="length">27</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/woosh.m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">125582</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2017-10-28T23:32:10.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2017-10-28T23:32:10.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:control_uuid">{d24ec466-71eb-4b1f-90ed-ea65bfb55345}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">17691</property>
+  <property name="kdenlive:file_hash">4cc580212dcd0ceec7693c96f9067000</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain7" out="00:00:03.200">
+  <property name="length">81</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Vine boom2.m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2022-07-15T09:08:27.000000Z</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2022-07-15T09:08:27.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:control_uuid">{3f1fec87-97c2-45e4-8cbb-c79163d5201a}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">52977</property>
+  <property name="kdenlive:file_hash">0b191ec7eb30cdb55260c751167a04ae</property>
+ </chain>
+ <chain id="chain8" out="00:01:19.000">
+  <property name="length">1976</property>
+  <property name="eof">pause</property>
+  <property name="resource">WhatsApp Ptt 2026-01-12 at 17.10.57.ogg</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.layout">mono</property>
+  <property name="meta.media.0.codec.name">opus</property>
+  <property name="meta.media.0.codec.long_name">Opus</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:control_uuid">{2f71acc9-9d58-415c-90bc-69bb57c321a9}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">91019</property>
+  <property name="kdenlive:file_hash">b307bc3578ad6e5ac3b2d95d6e6aa5d6</property>
+  <property name="kdenlive:monitorPosition">8</property>
+ </chain>
+ <chain id="chain9" out="00:00:07.040">
+  <property name="length">177</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/yaaay.m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-03-31T10:59:59.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-03-31T10:59:59.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">8</property>
+  <property name="kdenlive:control_uuid">{268cb5bd-2e45-4a0a-996b-71d9296c0f67}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">115313</property>
+  <property name="kdenlive:file_hash">5b1b9dbef8bb425d5aaf65cd6843ed73</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain10" out="00:00:01.520">
+  <property name="length">39</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/slap.mp3</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">125584</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2017-10-27T20:06:22.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2017-10-27T20:06:22.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">9</property>
+  <property name="kdenlive:control_uuid">{775c5e69-fc29-4858-bc17-15e690316357}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">25430</property>
+  <property name="kdenlive:file_hash">ee6a898390e0c63642e3478092a19ad2</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain11" out="00:00:01.000">
+  <property name="length">26</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Pop.m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">127993</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2022-03-11T20:31:29.000000Z</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2022-03-11T20:31:29.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:control_uuid">{ec7d4d83-35a3-4c36-b15e-ab67914dcb2c}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">17302</property>
+  <property name="kdenlive:file_hash">3e875569a0f3dfa858a0482b36689be4</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain12" out="00:04:23.120">
+  <property name="length">6579</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Popular Meme Sound Effects (For Video Editing).m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">128276</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2022-07-22T17:59:33.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">dash</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
+  <property name="meta.attr.creation_time.markup">2022-07-22T17:59:33.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:control_uuid">{099f3b46-ab22-4cfb-9775-14d2c99baa21}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">4259931</property>
+  <property name="kdenlive:file_hash">b0f20866ba3ae655da7e6a53eba6b17d</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain13" out="00:00:05.000">
+  <property name="length">126</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/Gregoire/Desktop/Dossier/VIDS/Sound effect/Magic Wind Chimes Sound Effect (HD).mp3</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">mp3float</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">320000</property>
+  <property name="meta.attr.0.stream.encoder.markup">Lavc58.13</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">90000</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.width">1280</property>
+  <property name="meta.media.1.codec.height">720</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">601</property>
+  <property name="meta.media.1.codec.name">mjpeg</property>
+  <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.title.markup">Album cover</property>
+  <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.title.markup">Magic Wind Chimes Sound Effect (HD)</property>
+  <property name="meta.attr.artist.markup">SOUNDLAB</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.synopsis.markup">Sign up to the 30 day free trial of Epidemic Sound in order to download and use this track within your YouTube videos without Content ID claims.
+► Track Link - https://www.epidemicsound.com/track/iXYouL6uWJ/
+► Epidemic Sound website - https://share.epidemicsound.com/gpkum8
+
+..................................
+
+► How do I download this sound effect/music?
+There will be a link at the top of the description if you are allowed to download and use this sound effect/music within your videos. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Can I use this sound effect/music in my videos?
+Check the description of each video for details of whether you have permission to use this sound effect/music within your video. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Do you own these sound effects/music?
+No. I do not own these sounds. I have sourced them from the internet and uploaded them for ease of access to the YouTube community.
+
+..................................
+
+►If you enjoyed, please leave a like/comment/subscribe!! :D
+
+
+#magicwindchimessound
+#magicwindchimes
+#magicwindsound
+#magicsound
+#magic</property>
+  <property name="meta.attr.comment.markup">https://www.youtube.com/watch?v=H5CR1dNOA-I</property>
+  <property name="meta.attr.description.markup">Sign up to the 30 day free trial of Epidemic Sound in order to download and use this track within your YouTube videos without Content ID claims.
+► Track Link - https://www.epidemicsound.com/track/iXYouL6uWJ/
+► Epidemic Sound website - https://share.epidemicsound.com/gpkum8
+
+..................................
+
+► How do I download this sound effect/music?
+There will be a link at the top of the description if you are allowed to download and use this sound effect/music within your videos. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Can I use this sound effect/music in my videos?
+Check the description of each video for details of whether you have permission to use this sound effect/music within your video. If there is no download link, you use this sound effect/music at your own risk within your videos.
+
+► Do you own these sound effects/music?
+No. I do not own these sounds. I have sourced them from the internet and uploaded them for ease of access to the YouTube community.
+
+..................................
+
+►If you enjoyed, please leave a like/comment/subscribe!! :D
+
+
+#magicwindchimessound
+#magicwindchimes
+#magicwindsound
+#magicsound
+#magic</property>
+  <property name="meta.attr.date.markup">2022</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">1</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">90000</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">full</property>
+  <property name="astream">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:control_uuid">{545c825a-fdac-40c4-b803-34609136ed9c}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:coverartstream">1</property>
+  <property name="kdenlive:file_size">221912</property>
+  <property name="kdenlive:file_hash">1495713a414fb1171f1fd66ec663214a</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <playlist id="main_bin">
+  <property name="kdenlive:folder.-1.2">Sequences</property>
+  <property name="kdenlive:sequenceFolder">2</property>
+  <property name="kdenlive:docproperties.audioChannels">2</property>
+  <property name="kdenlive:docproperties.binsort">100</property>
+  <property name="kdenlive:docproperties.browserurl">C:/Users/Gregoire/Videos/</property>
+  <property name="kdenlive:docproperties.documentid">1768232902364</property>
+  <property name="kdenlive:docproperties.enableTimelineZone">0</property>
+  <property name="kdenlive:docproperties.enableexternalproxy">0</property>
+  <property name="kdenlive:docproperties.enableproxy">1</property>
+  <property name="kdenlive:docproperties.externalproxyparams">./;;.LRV;./;;.MP4</property>
+  <property name="kdenlive:docproperties.generateimageproxy">1</property>
+  <property name="kdenlive:docproperties.generateproxy">1</property>
+  <property name="kdenlive:docproperties.guidesCategories">[
+    {
+        "color": "#9b59b6",
+        "comment": "Catégorie 1",
+        "index": 0
+    },
+    {
+        "color": "#3daee9",
+        "comment": "Catégorie 2",
+        "index": 1
+    },
+    {
+        "color": "#1abc9c",
+        "comment": "Catégorie 3",
+        "index": 2
+    },
+    {
+        "color": "#1cdc9a",
+        "comment": "Catégorie 4",
+        "index": 3
+    },
+    {
+        "color": "#c9ce3b",
+        "comment": "Catégorie 5",
+        "index": 4
+    },
+    {
+        "color": "#fdbc4b",
+        "comment": "Catégorie 6",
+        "index": 5
+    },
+    {
+        "color": "#f39c1f",
+        "comment": "Catégorie 7",
+        "index": 6
+    },
+    {
+        "color": "#f47750",
+        "comment": "Catégorie 8",
+        "index": 7
+    },
+    {
+        "color": "#da4453",
+        "comment": "Catégorie 9",
+        "index": 8
+    }
+]
+</property>
+  <property name="kdenlive:docproperties.kdenliveversion">25.04.3</property>
+  <property name="kdenlive:docproperties.previewextension"/>
+  <property name="kdenlive:docproperties.previewparameters"/>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
+  <property name="kdenlive:docproperties.proxyextension"/>
+  <property name="kdenlive:docproperties.proxyimageminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyimagesize">800</property>
+  <property name="kdenlive:docproperties.proxyminsize">11</property>
+  <property name="kdenlive:docproperties.proxyparams"/>
+  <property name="kdenlive:docproperties.proxyresize">640</property>
+  <property name="kdenlive:docproperties.seekOffset">30000</property>
+  <property name="kdenlive:docproperties.sessionid">{29b20606-540f-4368-899d-ca8564b5614c}</property>
+  <property name="kdenlive:docproperties.uuid">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:docproperties.version">1.1</property>
+  <property name="kdenlive:expandedFolders"/>
+  <property name="kdenlive:binZoom">2</property>
+  <property name="kdenlive:extraBins">project_bin:-1:0</property>
+  <property name="kdenlive:documentnotes"/>
+  <property name="kdenlive:documentnotesversion">2</property>
+  <property name="kdenlive:docproperties.opensequences">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:docproperties.activetimeline">{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}</property>
+  <property name="kdenlive:docproperties.rendercategory">Audio only</property>
+  <property name="kdenlive:docproperties.rendercustomquality">30</property>
+  <property name="kdenlive:docproperties.renderendguide">4</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderfullcolorrange">0</property>
+  <property name="kdenlive:docproperties.rendermode">2</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderpreview">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP3</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">540</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">960</property>
+  <property name="kdenlive:docproperties.renderspeed">1</property>
+  <property name="kdenlive:docproperties.renderstartguide">4</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">-1</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">impression en cours.mp3</property>
+  <property name="xml_retain">1</property>
+  <entry in="00:00:00.000" out="00:00:00.000" producer="{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}"/>
+  <entry in="00:00:00.000" out="00:04:54.120" producer="chain5"/>
+  <entry in="00:00:00.000" out="00:00:01.040" producer="chain6"/>
+  <entry in="00:00:00.000" out="00:00:03.200" producer="chain7"/>
+  <entry in="00:00:00.000" out="00:01:19.000" producer="chain8"/>
+  <entry in="00:00:00.000" out="00:00:07.040" producer="chain9"/>
+  <entry in="00:00:00.000" out="00:00:01.520" producer="chain10"/>
+  <entry in="00:00:00.000" out="00:00:01.000" producer="chain11"/>
+  <entry in="00:00:00.000" out="00:04:23.120" producer="chain12"/>
+  <entry in="00:00:00.000" out="00:00:05.000" producer="chain13"/>
+ </playlist>
+ <tractor id="tractor4" in="00:00:00.000" out="00:00:15.440">
+  <property name="kdenlive:projectTractor">1</property>
+  <track in="00:00:00.000" out="00:00:15.440" producer="{ef2b7a46-9ebb-43fa-90a7-4dac6d27ba85}"/>
+ </tractor>
+</mlt>
